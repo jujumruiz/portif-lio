@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+<script type="text/javascript">
+		let aluno = {
+		nome: prompt ("digite seu nome"),
+		nota1: Number (prompt ("digite a primeira nota")),
+		nota2: Number (prompt ("digite a segunda nota"))
+};
+
+		let resultado_soma = (aluno.nota1 + aluno.nota2);
+		let media = resultado_soma/2;
+
+		console.log("oi," + aluno.nome + "media foi : " + media);
+//se a média for maior ou = a 7 aprovado, senao o reprovado
+//aluno entre 5.0 e 6.9 estará de recuperaçao
+if(media >= 7)
+{
+	console.log("aprovado");
+}
+else if (media >= 5 && media < 7)
+{
+	
+	console.log("recuperacao");
+}
+else{ 
+console.log ("reprovado");
+}
+
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

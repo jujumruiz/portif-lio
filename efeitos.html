@@ -1,0 +1,45 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<style type="text/css">
+			#gif
+			{
+				transition: 1s;
+			}
+		</style>
+
+		<script type="text/javascript">
+			function brilho()
+			{
+				let imagem = document.querySelector("#foto");
+				imagem.style.opacity= "0.9";
+			}
+			function tirarBrilho()
+			{
+				let imagem = document.querySelector("#foto");
+				imagem.style.opacity= "1";
+			}
+			function mover()
+			{
+				let imagem = document.querySelector("#gif");
+				imagem.style.marginLeft= "500px";
+			}
+
+		</script>
+	</head>
+	<body>
+		
+
+		<img src="https://78.media.tumblr.com/622731495fca4c32b5c519f67ac8741a/tumblr_otel24WU2S1vyni53o1_500.gif">
+
+	<button onclick= "window.print()">Imprimir</button>
+
+
+		<img id= "gif" src = "https://78.media.tumblr.com/622731495fca4c32b5c519f67ac8741a/tumblr_otel24WU2S1vyni53o1_500.gif">
+
+     <button onclick= "mover()">Mover</button>
+
+ 
+	</body>
+	</html>
